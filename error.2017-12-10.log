@@ -1122,3 +1122,4 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:89)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:70)
 	... 108 common frames omitted
+2017-12-10 13:18:53,849 - Column 'order_status' cannot be null
