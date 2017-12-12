@@ -77,12 +77,16 @@ public class OrderMasterServiceImplTest {
 
     @Test
     public void finish() throws Exception {
-
+        OrderDTO orderDTO = orderMasterService.findOne("1512883285460769673");
+        OrderDTO finish = orderMasterService.finish(orderDTO);
+        Assert.assertNotNull(finish);
     }
 
     @Test
     public void paid() throws Exception {
-
+        OrderDTO orderDTO = orderMasterService.findOne("1512883285460769673");
+        OrderDTO result = orderMasterService.paid(orderDTO);
+        Assert.assertNotNull(result);
     }
 
 }

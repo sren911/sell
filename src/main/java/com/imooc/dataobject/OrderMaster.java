@@ -46,7 +46,7 @@ public class OrderMaster {
     private Integer orderStatus = OrderStatusEnum.NEW.getCode();
 
     /*支付状态，默认0未支付*/
-    private int payStatus = OrderPayEnum.WAIT.getCode();
+    private Integer payStatus = OrderPayEnum.WAIT.getCode();
 
     /*创建时间*/
     private Date createTime;
